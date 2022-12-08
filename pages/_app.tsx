@@ -64,7 +64,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="keywords" content="web3, unocss, thirdweb, ethereum, sdk, nextjs" />
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      <div className="text-violet-50 text-xl font-sans flex flex-col min-h-screen w-full relative px-6 md:px-0">
+      <div className="bg-violet-600 text-violet-50 text-xl font-sans flex flex-col min-h-screen w-full relative px-6 md:px-0">
         <TheHeader />
         <main className="flex-grow flex items-center my-16">
           <Component {...pageProps} />
