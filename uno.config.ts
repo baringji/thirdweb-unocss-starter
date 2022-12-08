@@ -51,7 +51,7 @@ export default defineConfig({
     }),
   ],
   shortcuts: [
-    ['heading', 'font-heading font-900 headline'],
+    ['heading', 'font-heading font-900 text-shadow-headline'],
     ['btn', ''],
   ],
   transformers: [
