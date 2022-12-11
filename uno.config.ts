@@ -52,8 +52,8 @@ export default defineConfig({
   ],
   shortcuts: [
     ['heading', 'font-heading font-900 text-shadow-headline'],
-    ['link-box', 'bg-violet-500 border border-violet-700 hover:border-violet-400 rounded-xl w-full h-36 flex items-center justify-center'],
-    ['link-box-item', 'cursor-pointer'],
+    ['box', 'bg-violet-500 border border-violet-700 hover:border-violet-400 rounded-xl w-full h-36 flex items-center justify-center'],
+    ['box-item', 'cursor-pointer'],
   ],
   transformers: [
     transformerVariantGroup(),
