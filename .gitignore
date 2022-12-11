@@ -131,6 +131,9 @@ dist
 .pnp
 .pnp.*
 
+# pnpm
+pnpm-lock.yaml
+
 # misc
 .DS_Store
 *.pem
